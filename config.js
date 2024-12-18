@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const config = {
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'XSTRO_60_14_48',
 	SUDO: process.env.SUDO || '',
 	BOT_INFO: process.env.BOT_INFO || 'Astro;Xstro_Bot',
 	STICKER_PACK: process.env.STICKER_PACK || 'Xstro;Md',
